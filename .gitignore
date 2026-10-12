@@ -1,0 +1,29 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/*
+!data/.gitkeep
+
+# OS and editor
+.DS_Store
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.keras
