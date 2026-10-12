@@ -9,7 +9,7 @@ A hands-on learning repository for Chapter 4 of *Hands-On Machine Learning with 
 - Record experiments, observations, and learning notes.
 
 ## Topics
-- Linear Regression
+- Linear Regression - Done
 - Gradient Descent
 - Polynomial Regression
 - Learning Curves
@@ -24,7 +24,7 @@ A hands-on learning repository for Chapter 4 of *Hands-On Machine Learning with 
 - `notes/` — Concepts, equations, and observations
 
 ## Progress
-- [ ] Linear Regression
+- [ D ] Linear Regression
 - [ ] Gradient Descent
 - [ ] Polynomial Regression
 - [ ] Regularized Linear Models
@@ -36,3 +36,30 @@ Python | NumPy | Pandas | Matplotlib | Scikit-Learn | Jupyter
 
 ## Reference
 Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow — Aurélien Géron, 3rd Edition.
+
+
+## Learning Progress
+
+### Day 1 — Linear Regression
+
+**Topics Covered:**
+- Linear Regression and vectorized predictions
+- Mean Squared Error (MSE) cost function
+- Normal Equation and mathematical derivation
+- Matrix transpose, inverse, and pseudoinverse
+- Introduction to Singular Value Decomposition (SVD)
+- Linear Regression using Scikit-Learn
+- Introduction to Gradient Descent and Lipschitz continuity
+
+**Implementations:**
+- Generated a synthetic linear dataset using NumPy
+- Calculated model parameters using the Normal Equation
+- Made predictions using matrix multiplication
+- Trained a model using Scikit-Learn's LinearRegression
+- Compared manual and Scikit-Learn predictions
+
+**Key Learning:**
+Linear Regression finds model parameters that minimize
+the Mean Squared Error. The Normal Equation provides
+a direct mathematical solution, while the pseudoinverse
+handles singular matrices.
