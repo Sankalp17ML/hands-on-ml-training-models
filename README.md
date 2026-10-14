@@ -114,3 +114,12 @@ handles singular matrices.
 ### Next Topics
 
 Learning Curves, Underfitting vs Overfitting, and Regularized Linear Models.
+
+
+
+### 14/10/2026
+
+### Topics Covered Today:
+
+- Learning Curves
+

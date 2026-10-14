@@ -43,3 +43,37 @@ Polynomial Regression
 \[
 \hat y=\theta_0+\theta_1x+\theta_2x^2
 \]
+
+
+## Learning Curves
+
+**Definition:** Learning curves show how a model's training and validation errors change as the number of training instances increases.
+
+**Purpose:** Identify underfitting, overfitting, and whether adding more training data will improve performance.
+
+### Key Concepts
+- **X-axis:** Number of training instances.
+- **Y-axis:** Error (usually RMSE).
+- **Training error:** Error on data used for training.
+- **Validation error:** Error on unseen validation data.
+
+### Interpreting Learning Curves
+
+| Underfitting (High Bias) | Overfitting (High Variance) |
+|---|---|
+| High training error | Low training error |
+| High validation error | High validation error |
+| Small gap between curves | Large gap between curves |
+| Use a more flexible model | Add data or regularization |
+
+### Important Code
+- `learning_curve()` — evaluates a model using different training sizes.
+- `train_sizes` — number of training instances used.
+- `cv=5` — five-fold cross-validation.
+- `neg_root_mean_squared_error` — negative RMSE scoring.
+- `.mean(axis=1)` — averages scores across CV folds.
+
+### Key Takeaways
+- Learning curves help diagnose bias and variance.
+- Adding more data may help overfitting but usually won't fix underfitting when errors have plateaued.
+- A good model has low training and validation errors with a small gap.
