@@ -123,3 +123,7 @@ Learning Curves, Underfitting vs Overfitting, and Regularized Linear Models.
 
 - Learning Curves
 
+### 15/10/2026
+
+-Ridge Regression
+-Lasso Regression
