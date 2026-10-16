@@ -127,3 +127,8 @@ Learning Curves, Underfitting vs Overfitting, and Regularized Linear Models.
 
 -Ridge Regression
 -Lasso Regression
+
+
+### 16/10/2026
+-Elastic Net Regression
+
